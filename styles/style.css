@@ -1,3 +1,5 @@
-body{
-    background-color: grey;
-}
+@import url(02-generic/reset.css);
+@import url(00-generic/fonts\ &\ colors.css);
+@import url(00-generic/buttons.css);
+
+@import url(03-elements/header.css);

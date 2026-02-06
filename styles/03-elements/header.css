@@ -1,0 +1,88 @@
+header{
+    display: flex;
+    width: 100rem;
+    height: 10rem;
+    padding-bottom: 1.9375rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.80181rem;
+    background-color: var(--neutral-10, #F9F9F7);
+    .top-bar{
+        display: flex;
+        width: 100rem;
+        padding: 0.5625rem 9.375rem;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--dark-grey, #474747);      
+        .top-bar__info{
+            display: flex;
+            gap: 1.5625rem;
+        .info__phone, .info__mail{
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                color:var(--neutral-10, #F9F9F7);
+            }
+        }
+        .social__ul{
+            display:flex;
+            gap:0.25rem;
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1.69819rem;
+                height: 1.69819rem;
+                border-radius: 1.69819rem;
+                background: rgba(249, 249, 247, 0.12);
+            }
+        }
+    }  
+    .menu-nav{
+        display: flex;
+        width: 80.88544rem;
+        justify-content: space-between;
+        align-items: center;
+        .menu-nav__logo{
+            display: flex;
+            height: 2.41669rem;
+            padding: 0.25rem 0 0.29169rem 2.58331rem;
+            justify-content: flex-end;
+            align-items: center;
+            img{
+                width: 3.5rem;
+                height: 3.4375rem;
+            }
+            h1{
+                color: var(--dark-grey, #474747);
+                font-family: var(--font1);
+                font-size: 2.66669rem;
+                font-style: italic;
+                font-weight: 600;
+                line-height: 1.83331rem;
+                letter-spacing: -0.025rem;
+            }
+        }
+        .nav__ul{
+            display: flex;
+            gap:0.5rem;
+            .nav__li{
+                padding:0.25rem 1rem;
+                transition: 1.2s;
+                &:hover{
+                    border-radius: 2.125rem;
+                    background: var(--neutral-20, #DBDFD0);
+                }
+                a{
+                    color: var(--neutral-100, #2C2F24);
+                    font-family:var(--font2);   
+                    font-weight: 500; 
+                }
+            }
+        }
+
+    }  
+
+
+}
+
