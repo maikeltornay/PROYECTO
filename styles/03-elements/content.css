@@ -1,0 +1,76 @@
+section.content{
+    height: 54.1875rem;
+    padding: 7.5rem 9.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    background: var(--neutral-10, #F9F9F7);
+    .content__div{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        gap: 5.625rem;
+        .content-div__images{
+            display:grid;
+            grid-template-columns: 26.9375rem 18.125rem;
+            grid-template-rows: 1.88rem 20.8125rem 13.31rem 1.69rem;
+            gap:1.5rem;
+            .content-div__img1{
+                grid-column: 1 / 2;
+                grid-row: 1 /4;
+            }
+            .content-div__img2{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            .content-div__img3{
+                grid-column: 2 / 3 ;
+                grid-row: 3 / 5 ;
+            }
+        }
+        .content-div__text{
+            gap:3.125rem;
+            .content-div__h2{
+                width: 28.8125rem;
+                text-align: start;
+                margin-bottom: 1.25rem;
+            }
+            .content-div__p{
+                width: 28.8125rem;
+                color: var(--neutral-80, #414536);
+                font-family:var(--font2);
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.5rem;
+            }
+            .content-div__ul{
+                display:flex;
+                flex-direction: column;
+                gap:1.25rem
+            }
+            .content-div__li{
+                display:flex;
+                gap:1.25rem;
+                .content-div-li__img{
+                    width: 1.875rem;
+                    height: 1.875rem;
+                    padding: 0.4rem;
+                    border-radius: 4.0625rem;
+                    background: var(--primary, #AD343E);
+                }
+                .content-div-li__p{
+                    color: var(--secondary, #182226);
+                    font-family: var(--font2);
+                    font-size: 1.25rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 1.625rem;
+                }
+
+            }
+        }
+    }
+
+}

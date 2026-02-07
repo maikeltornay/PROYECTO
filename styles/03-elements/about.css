@@ -1,0 +1,87 @@
+section.about{
+    display: flex;
+    height: 53.5rem;
+    padding: 7.5rem 9.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--neutral-10, #F9F9F7);
+    .about__content{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8.75rem;
+        .about__contact{
+            width: 37.4375rem;
+            height: 35.375rem;
+            position: relative;
+            display:flex;
+            background-image: url(/styles/images/burritos.png);
+            border-radius: 0.75rem;
+            .contact__article{
+                width: 25.6875rem;
+                height: 20.0625rem;
+                position:absolute;
+                bottom: -50px;
+                right: -50px;
+                border-radius: 0.75rem;
+                background: var(--dark-grey, #474747);
+                padding: 3.12rem;
+                gap:2.81rem;
+                .contact-article__p{
+                    color: var(--neutral-10, #F9F9F7);
+                    font-family: var(--font2);
+                    font-size: 1.5rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 1.875rem;
+                    letter-spacing: -0.045rem;
+                }
+                .contact-article__ul{
+                    gap:1.56rem;
+                    .contact-article__li{
+                        display:flex;
+                        gap:1.25rem;
+                        a{
+                            color: var(--neutral-10, #F9F9F7);
+                            font-family: var(--font2);
+                            font-size: 1rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+        .about__text{
+            width: 34.8125rem;
+            gap:2.5rem;
+            align-items: start;
+            .about-text__title{
+                justify-content:left;
+                gap:1.5rem;
+                .about-text__h2{
+                    text-align: start;
+                }
+                .about.text__p1{
+                    color: var(--secondary, #182226);
+                    font-family: var(--font2);
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 1.75rem;
+                }
+                .about-text__p2{
+                    color: var(--neutral-80, #414536);
+                    font-family: var(--font2);
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1.5rem; 
+                }
+            }
+        }
+    }
+}

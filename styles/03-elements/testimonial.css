@@ -1,0 +1,68 @@
+section.testimonial{
+    height: 47.875rem;
+    padding: 6.125rem 9.5rem; 
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    .testimonial__content{
+        gap:4rem;
+        .testimonial-content__ul{
+            display:flex;
+            align-items: flex-start;
+            align-content: flex-start;
+            gap: 1.5rem;
+            .testimonial-content__article{
+                display:flex;
+                flex-direction:column;
+                width: 26rem;
+                height: 25.5rem;
+                padding:3rem 1.38rem 2rem 3rem;
+                border-radius: 0.75rem;
+                background: var(--neutral-10, #F9F9F7);
+                .testimonial-content__text{
+                    display: flex;
+                    flex-direction: column;
+                    gap:1.5rem;
+                    margin-bottom: 2rem;
+                    border-bottom:1px solid var(--neutral-20,#DBDFD0);
+                    padding-bottom: 2rem;
+                }
+                h3{
+                    text-align: start;
+                    font-size: 1.5rem;
+                }
+                p{
+                    width: 21.625rem;
+                    color: var(--neutral-80, #414536);
+                    font-family:var(--font2);
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1.75rem;
+                }
+               
+                .testimonial-content__user{
+                    display:flex;
+                    gap:1.5rem;
+                    .user__name{
+                        color: var(--secondary, #182226);
+                        font-family:var(--font2);
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 1.5rem; 
+                        margin-bottom: 0.25rem;
+                    }
+                    .user__location{
+                        color: var(--neutral-80, #414536);
+                        font-family:var(--font2);
+                        font-size: 1rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 1.5rem; 
+                    }
+                }
+            }
+        }
+    }
+}
