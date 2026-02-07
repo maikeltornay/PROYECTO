@@ -1,5 +1,9 @@
 @import url(02-generic/reset.css);
+@import url(02-generic/container.css);
 @import url(00-generic/fonts\ &\ colors.css);
 @import url(00-generic/buttons.css);
 
 @import url(03-elements/header.css);
+@import url(03-elements/hero.css);
+@import url(03-elements/menu.css);
+@import url(03-elements/about.css);

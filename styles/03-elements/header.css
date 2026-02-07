@@ -1,6 +1,5 @@
 header{
     display: flex;
-    width: 100rem;
     height: 10rem;
     padding-bottom: 1.9375rem;
     flex-direction: column;
@@ -49,6 +48,7 @@ header{
             padding: 0.25rem 0 0.29169rem 2.58331rem;
             justify-content: flex-end;
             align-items: center;
+            gap:0.86rem;
             img{
                 width: 3.5rem;
                 height: 3.4375rem;

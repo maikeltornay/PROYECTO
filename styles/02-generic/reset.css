@@ -21,6 +21,7 @@ body {
   line-height: 1.5; /* Mejora la legibilidad */
   -webkit-font-smoothing: antialiased; /* Suaviza el texto */
   min-height: 100svh; /* Asegura que cubra toda la pantalla móvil */
+ 
 }
 
 /* 5. Reset de listas (li) */
