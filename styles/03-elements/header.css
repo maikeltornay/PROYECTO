@@ -34,6 +34,9 @@ header{
                 height: 1.69819rem;
                 border-radius: 1.69819rem;
                 background: rgba(249, 249, 247, 0.12);
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
     }  
@@ -46,7 +49,6 @@ header{
             display: flex;
             height: 2.41669rem;
             padding: 0.25rem 0 0.29169rem 2.58331rem;
-            justify-content: flex-end;
             align-items: center;
             gap:0.86rem;
             img{
